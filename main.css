@@ -74,14 +74,6 @@ footer li {
     padding-right: 4rem;
 }
 
-.blob-pink {
-    background-color: lightpink;
-}
-
-.blob-green {
-    background-color: lightgreen;
-}
-
 @media screen and (max-width: 1000px) {
     .post {
         width: 100%;
@@ -89,5 +81,9 @@ footer li {
 }
 
 .headshot {
+    width: 300px;
+}
+
+.post img {
     width: 300px;
 }
