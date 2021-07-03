@@ -21,13 +21,15 @@ nav {
     width: 170px;
     z-index: 1;
     box-sizing: border-box;
-    background-color: lightpink;
+    background-color: lightblue;
 }
 
 .post {
-    height: 400px;
-    background-color: lightblue;
+    width: 45%;
     margin: 10px;
+    box-sizing: border-box;
+    display: inline-block;
+    text-align: center;
 }
 
 .container {
@@ -59,6 +61,33 @@ li {
     padding: 5px;
 }
 
+footer {
+    text-align: center;
+}
+
 footer ul {
-    display: flex;
+    display: inline;
+}
+
+footer li {
+    display: inline;
+    padding-right: 4rem;
+}
+
+.blob-pink {
+    background-color: lightpink;
+}
+
+.blob-green {
+    background-color: lightgreen;
+}
+
+@media screen and (max-width: 1000px) {
+    .post {
+        width: 100%;
+    }
+}
+
+.headshot {
+    width: 300px;
 }
