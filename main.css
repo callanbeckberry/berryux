@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#logo {
+    width: 80px;
+    height: 80px;
+    padding: 10px;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+    left: 0;
+    margin: 0;
+    padding: 30px;
+    position: fixed;
+    top: 0;
+    width: 170px;
+    z-index: 1;
+    box-sizing: border-box;
+    background-color: lightpink;
+}
+
+.post {
+    height: 400px;
+    background-color: lightblue;
+    margin: 10px;
+}
+
+.container {
+    margin-left: 170px; /* Should be the same as nav { width } */
+}
+
+.hide {
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s 0.5s, opacity 0.5s linear;
+}
+
+.appear {
+    visibility: visible;
+    opacity: 1;
+    transition: opacity 0.5s linear;
+}
+
+ul {
+    margin: 10px 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+a,
+li {
+    font-size: 14pt;
+    color: darkcyan;
+    padding: 5px;
+}
+
+footer ul {
+    display: flex;
+}
